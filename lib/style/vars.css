@@ -1,0 +1,74 @@
+:root {
+    --background-data: black;
+    --background-blur: 200px;
+    --background-elipse-display: block;
+    --background-elipse-1-color:#B803FF;
+    --background-elipse-2-color:#0771FF;
+    --navbar-blur: 10px;
+    --navbar-background: none;
+    --navbar-border:none;
+    --navbar-border-radius:none;
+    --text-color:white;
+    --text-second-color:#BCBCBC;
+    --text-font:'JetBrains Mono';
+    --text-size-1:1vw;
+    --text-size-2:1.5vw;
+    --text-size-3:2vw;
+    --text-size-3-5:2.5vw;
+    --text-size-4:3vw;
+    --text-size-5:4vw;
+    --text-size-6:6vw;
+    --text-weight-thin:300;
+    --text-weight-normal:400;
+    --text-weight-bold:700;
+    --text-weight-black:900;
+    --text-link-cursor: pointer;
+    --text-link-decoration: none;
+    --navbar-height: 48px;
+    --post-background: rgba(255,255,255,0.2);
+    --post-border:solid white 1px;
+    --post-radius:16px;
+    --comment-background: black;
+    --comment-border:solid white 1px;
+    --comment-radius:16px;
+    --badge-color: white;
+    --badge-border: none;
+    --badge-background: none;
+    --badge-radius: none;
+    --global-border: solid white 1px;
+    --global-border-radius-1: 16px;
+    --global-border-radius-2: 32px;
+    --global-border-radius-3: 64px;
+    --new-background: white;
+    --new-color: black;
+    --new-border: none;
+    --logo-url: url("$lib/img/logo.svg");
+    --pastille-border: 1px solid #FFFFFF;
+    --pastille-border-radius: 16px;
+    --pastille-background-color: rgba(255,255,255,0.2)
+}
+
+@media screen and (max-width: 550px) {
+    :root {
+        --text-size-1:3vw;
+        --text-size-2:5vw;
+        --text-size-3:6vw;
+        --text-size-3-5:7.5vw;
+        --text-size-4:8vw;
+        --text-size-5:10vw;
+        --text-size-6:18vw;
+    } 
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 550px){
+    :root {
+        --text-size-1:2vw;
+        --text-size-2:3vw;
+        --text-size-3:4vw;
+        --text-size-3-5:5vw;
+        --text-size-4:6vw;
+        --text-size-5:8vw;
+        --text-size-6:12vw;
+    }
+}

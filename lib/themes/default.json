@@ -1,0 +1,66 @@
+{
+    "meta": {
+        "key": "bc-theme-v2",
+        "name": "Default Blockcoin Theme",
+        "id": "default",
+        "author": "DaGreenBoi",
+        "version": 1,
+        "type": "theme"
+    },
+    "data": {
+        "background": {
+          "color": "black",
+          "elipse-color": ["#B803FF", "#0771FF"],
+          "elipse-display": "block",
+          "blur": "200px"
+        },
+        "text": {
+          "font": "Poppins",
+          "font-code": "Poppins",
+          "color": "white",
+          "size": ["1vw", "1.5vw", "2vw", "2.5vw", "3vw", "4vw", "6vw"],
+          "font-weight": 400,
+          "font-weight-light": 300,
+          "font-weight-bold": 700,
+          "font-weight-black": 900,
+          "link-cursor": "pointer",
+          "link-decoration": "none"
+        },
+        "badge": {
+          "color": "white",
+          "border-radius": "none",
+          "border": "none",
+          "background": "none"
+        },
+        "post": {
+          "border": "solid white 1px",
+          "border-radius": "16px",
+          "background": "black"
+        },
+        "comment": {
+          "border": "solid white 1px",
+          "border-radius": "16px",
+          "background": "black"
+        },
+        "navbar": {
+          "background": "none",
+          "blur": "10px",
+          "border": "none",
+          "border-radius": "none"
+        },
+        "global": {
+          "border-radius": ["16px", "32px", "64px"],
+          "border": "solid white 1px",
+          "picture-size": "48px"
+        },
+        "new": {
+          "background":"white",
+          "color":"black",
+          "border":"none"
+        },
+        "logo": {
+          "url":"https://blockcoin.social/logo.png"
+        }
+      }
+      
+}

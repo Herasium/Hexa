@@ -1,0 +1,77 @@
+{
+    "meta": {
+        "key": "bc-theme-v2",
+        "name": "BlueCoin",
+        "id": "dark_blue",
+        "author": "yippymishy",
+        "version": 1,
+        "type":"css"
+    },
+    "data": {
+      "body::after": {
+        "type": "tag",
+        "content": "''",
+        "background-image": "url('https://u.cubeupload.com/yippymishy/coolbluebg1920x1080.jpg')",
+        "background-position": "center",
+        "background-size": "cover",
+        "position": "fixed",
+        "top": "0",
+        "left": "0",
+        "right": "0",
+        "bottom": "0",
+        "z-index": "-1",
+        "opacity": "0.5"
+      },
+      "blur": {
+        "type": "id",
+        "display": "none"
+      },
+      "elipse": {
+        "type": "class",
+        "display": "none"
+      },
+      "navbar": {
+        "type": "id",
+        "border-bottom": "2px solid white",
+        "background-color": "#208be1"
+      },
+      "top-container": {
+        "type": "id",
+        "background-color": "#208be1",
+        "border-radius": "16px"
+      },
+      "post": {
+        "type": "id",
+        "background-color": "#1a72bb",
+        "border": "2px solid white"
+      },
+      "new_button": {
+        "type": "id",
+        "margin": "25px",
+        "background-color": "white"
+      },
+      "cont-1": {
+        "type": "id",
+        "background-color": "#208be1"
+      },
+      "cont-2": {
+        "type": "id",
+        "background-color": "#208be1"
+      },
+      "cont-3": {
+        "tag": "tag",
+        "type": "id",
+        "background-color": "#208be1"
+      },
+      "cont-4": {
+        "type": "id",
+        "background-color": "#208be1"
+      },
+      "post-badges-container": {
+        "type": "class",
+        "border": "2px solid white",
+        "padding": "2px",
+        "border-radius": "8px"
+      }
+    }
+  }
