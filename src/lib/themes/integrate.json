@@ -1,0 +1,49 @@
+{
+    "meta": {
+        "name": "Integrate",
+        "id": "bc-integrate",
+        "author": "zirc.lol",
+        "version": 1
+    },
+    "data": {
+        "background": {
+          "color": "#171920",
+          "elipse-color": ["#29499e"],
+          "blur": "200.5px"
+        },
+        "text": {
+          "font": "DM Sans",
+          "font-code": "DM+Sans",
+          "color": "white",
+          "size": ["16px", "24px", "32px", "48px", "64px", "300px"],
+          "font-weight": 400,
+          "font-weight-light": 300,
+          "font-weight-bold": 700,
+          "link-cursor": "pointer",
+          "link-decoration": "underline"
+        },
+        "badge": {
+          "color": "#29499e",
+          "border-radius": "none",
+          "border": "none"
+        },
+        "post": {
+          "border": "solid #333343 1px",
+          "border-radius": "16px",
+          "background": "#171920"
+        },
+        "comment": {
+          "border": "solid white 1px",
+          "border-radius": "16px",
+          "background": "black"
+        },
+        "navbar": {
+          "background": "none",
+          "blur": "10px"
+        },
+        "global": {
+          "border-radius": ["16px", "32px", "64px"],
+          "border": "none"
+        }
+      }
+}

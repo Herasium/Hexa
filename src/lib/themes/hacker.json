@@ -1,0 +1,65 @@
+{
+    "meta": {
+        "key": "bc-theme-v2",
+        "name": "Hacker Theme",
+        "id": "hacker",
+        "author": "Herasium",
+        "version": 1,
+        "type": "theme"
+    },
+    "data": {
+        "background": {
+          "color": "black",
+          "elipse-color": ["black", "black"],
+          "elipse-display": "block",
+          "blur": "200px"
+        },
+        "text": {
+          "font": "DM Mono",
+          "font-code": "DM+Mono",
+          "color": "#01FF18",
+          "size": ["1vw", "1.5vw", "2vw", "2.5vw", "3vw", "4vw", "6vw"],
+          "font-weight": 400,
+          "font-weight-light": 300,
+          "font-weight-bold": 700,
+          "font-weight-black": 900,
+          "link-cursor": "pointer",
+          "link-decoration": "none"
+        },
+        "badge": {
+          "color": "#01FF18",
+          "border-radius": "none",
+          "border": "none",
+          "background": "none"
+        },
+        "post": {
+          "border": "none",
+          "border-radius": "16px",
+          "background": "none"
+        },
+        "comment": {
+          "border": "none",
+          "border-radius": "16px",
+          "background": "none"
+        },
+        "navbar": {
+          "background": "none",
+          "blur": "10px",
+          "border": "none",
+          "border-radius": "none"
+        },
+        "global": {
+          "border-radius": ["16px", "32px", "64px"],
+          "border": "none",
+          "picture-size": "48px"
+        },
+        "new": {
+          "background":"white",
+          "color":"black",
+          "border":"none"
+        },
+        "logo": {
+          "url":"https://blockcoin.social/logo.png"
+        }
+      }
+}
